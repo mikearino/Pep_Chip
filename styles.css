@@ -3,6 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Remove default margin */
@@ -73,9 +74,35 @@ select {
   }
 }
 
+li {
+  list-style: none;
+}
+
 .head {
-  font-size: x-large;
+  display: flex;
+  
+}
+
+.header-logo {
+  font-size: 24px;
 }
 
 .main {
+  display: flex;
+}
+
+.info {
+  display: flex;
+}
+
+.quote {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.branding {
+  display: flex;
 }
