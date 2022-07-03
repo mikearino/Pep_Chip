@@ -85,6 +85,8 @@ a {
 .head {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
 }
 
 .header-logo {
@@ -97,13 +99,22 @@ a {
 
 .main {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+  background-color: #1f2937;
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border: 1px #3882f6 solid;
+  color: #f9faf8;
+  text-align: center;
+  margin-right: 200px;
 }
 
 .info {
