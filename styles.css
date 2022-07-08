@@ -74,6 +74,11 @@ select {
   }
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
 li {
   list-style: none;
 }
@@ -106,12 +111,15 @@ a {
   display: flex;
   justify-content: space-around;
   background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20vh 10vh;
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .sign-up {
@@ -119,7 +127,9 @@ a {
   border: 1px #3882f6 solid;
   color: #f9faf8;
   text-align: center;
-  margin-right: 200px;
+  padding: 1vh 5vh;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 .info {
