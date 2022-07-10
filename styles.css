@@ -134,6 +134,21 @@ a {
 
 .info {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  gap: 2em;
+}
+
+.info-list {
+  display: flex;
+  gap: 4em;
+}
+
+.image {
+  border: #3882f6 3px solid;
+  padding: 4em;
+  border-radius: 8px;
 }
 
 .quote {
