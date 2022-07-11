@@ -176,9 +176,32 @@ a {
   display: flex;
   border: #3882f6 1px solid;
   background-color: #3882f6;
-  color: white;
+  color:#e5e7eb;
   padding: 2em;
-  margin: 4em 10em;
+  margin: 7em 10em;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alignment {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: #e5e7eb 2px solid;
+  border-radius: 8px;
+  padding: 1px;
+  text-decoration: none;
+  color:#e5e7eb;
+  text-align: center;
+  height: 30px;
+  width: 130px;
+}
+
+.shrink {
+  margin: 1px;
 }
 
 .branding {
