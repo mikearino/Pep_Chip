@@ -81,10 +81,17 @@ h1 {
 
 li {
   list-style: none;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
+}
+
+#stuff {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937
 }
 
 .head {
@@ -147,7 +154,8 @@ a {
 
 .image {
   border: #3882f6 3px solid;
-  padding: 4em;
+  height: 8em;
+  width: 8em;
   border-radius: 8px;
 }
 
