@@ -206,4 +206,9 @@ a {
 
 .branding {
   display: flex;
+  height: 4em;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
 }
